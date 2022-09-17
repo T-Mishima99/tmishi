@@ -1,0 +1,304 @@
+body{
+  width: 960px;
+  margin:auto;
+  text-align:center;
+  height:2500px;
+}
+
+
+.title{
+    color:red;
+}
+
+.header{
+    height:700px;
+    background-size:cover;
+    background-image: url("img/mountain-g2ecd74606_1920.jpg");
+}
+
+.header:hover{
+    opacity:1.0;
+}
+
+.header h1{
+  display:none;
+  padding-top:30%;
+  text-align: center;
+  font-size: 80px;
+  color:white;
+  letter-spacing: 5px;
+}
+
+.header-contents{
+    float:right;
+    padding:20px;
+    text-align:right;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    filter: drop-shadow(1px 1px 2px #121212);
+    text-decoration: none;
+}
+
+.menu{
+    background-image: url("img/sushi-gff4822b6c_1920.jpg");
+    height: 150px;
+    margin-top: 10px;
+    background-size: cover;
+}
+
+
+.menu h1{
+    letter-spacing: 5px;
+    text-align:center;
+    color:black;
+    font-family:serif;
+    padding:30px;
+
+}
+
+
+.item-title{
+    text-align: center;
+    padding-top:20px;
+}
+
+.item-name{
+    display:inline-table;
+    width:49%;
+    float:left;
+}
+
+
+.menu-item{
+    margin:50px;
+    background-color:white;
+    z-index: 10;
+}
+
+
+.item-name dt{
+    margin-left:20px;
+    padding-left:20px;
+    text-align: left;
+    height:10px;
+    padding-top: 4px;
+}
+.item-name dd{
+    margin-right:20px;
+    text-align: right;
+    border-bottom: dotted 1px #000;
+    padding-bottom:5px;
+}
+
+.drink-name{
+    display:inline-table;
+    width:50%;
+    float:right;
+}
+
+
+.drink-name h3{
+    padding-top:20px;
+    text-align: center;
+}
+
+
+
+.drink-name dt{
+    margin-left:20px;
+    padding-left:20px;
+    text-align: left;
+    height:10px;
+    padding-top: 4px;
+}
+.drink-name dd{
+    margin-right:20px;
+    text-align: right;
+    border-bottom: dotted 1px #000;
+    padding-bottom:5px;
+}
+
+.item-name:first-child{
+    border-right: solid 1px #000;
+}
+
+
+.about{
+    margin-top:400px;
+}
+
+.about-line h1{
+    color: aliceblue;
+    background-position:0px ;
+    background-image: url("img/chef-gfe25ab080_1920.jpg");
+    margin-top:0px;
+    font-family:serif;
+    padding:50px;
+    letter-spacing: 5px;
+
+}
+
+.contents{
+    padding-top:50px;
+}
+
+.active{
+    text-align:center;
+    width:31%;
+    float:left;
+    display:inline;
+    padding-right:20px;
+    position:relative;  
+}
+
+.active img{
+    border-radius:15px;
+    height:150px;
+    background-size: cover; 
+}
+
+.active h4{
+    color:white;
+    position:absolute;
+    top:40px;
+    left:35%;
+}
+
+.active p{
+    opacity:0.6;
+    margin:20px;
+}
+
+.btn{
+    text-align:center;
+    margin:300px 330px 100px;
+}
+
+.btn p{
+    font-family: serif;
+    box-shadow:1px 5px rgba(56, 117, 97,0.7);
+    border-radius: 10px;
+    padding:10px;
+    background-color:rgba(127, 255, 212,0.7);
+    
+}
+
+.btn:active{
+    position:relative;
+    top:5px;
+    left:1px;
+    box-shadow:initial;
+
+}
+
+.btn:hover{
+    border-radius: 10px;
+    background-color:rgba(127, 255, 212,1);
+    box-shadow:1px 5px rgba(56, 117, 97,1);
+}
+
+
+.footer{
+    margin-top:100px;
+    border-top: #121212;
+    background-color:rgb(88, 97, 97);
+    height:200px;
+    font-family:serif;
+    color: #fff;
+}
+
+.footer p{
+    letter-spacing: 4px;
+    padding:20px;
+    text-align:left;
+    float:left;
+    font-size:20px;
+}
+
+.footer ul{
+    width:30%;
+    float:right;
+    text-align:left;
+}
+
+.footer h4{
+    margin-right:40px;
+}
+
+.footer li{
+    margin:3px;
+    list-style: none;
+}
+
+.location h2{
+    font-family: serif;
+    background-size:cover;
+    text-align:center;
+    color:white;
+    padding:20px;
+    background-color:rgba(1, 0, 2, 0.6);
+}
+
+
+.login-modal-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    /* display: none;を追加してください */
+    display:none;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    background-color: #e6ecf0;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+  }
+  
+  .fa-times {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: rgba(128, 128, 128, 0.46);
+    cursor: pointer;
+  }
+  
+  #signup-form, #login-form {
+    width: 100%;
+  }
+  
+  #signup-form h2, #login-form h2 {
+    color: #5f5d60;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+  
+  #signup-form input, #login-form input {
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border: 1px solid #d0d5d8;
+    border-radius: 5px;
+  }
+  
+  #submit-btn {
+    display: inline-block;
+    padding: 14px 140px;
+    background-color: #5dca88;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+  }

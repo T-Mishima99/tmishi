@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <div class="header">
+        <nav>
+          <ul>
+            <a href="#location" class="header-contents">LOCATION</a>
+            <a href="#about" class="header-contents">ABOUT</a>
+            <a href="#menu" class="header-contents">MENU</a>
+          </ul>
+        </nav>
+        <br>
+        <h1>WELCOME TO JAPAN</h1>
+    </div>
+    <div class="menu" id="menu">
+        <h1>MENU</h1>
+
+    </div>
+    <div class="menu-item">
+        
+        <div class="item-name">
+            <h3 class="item-title">SUSHI</h3>
+            <dl>
+                <dt>samon</dt><dd>¥400</dd>
+                <dt>blackbas</dt><dd>¥100</dd>
+                <dt>bluegil</dt><dd>¥100</dd>
+                <dt>maguro</dt><dd>¥400</dd>
+                <dt>tai</dt><dd>¥400</dd>
+            </dl>
+        </div>
+        
+        <div class="drink-name">
+          <h3>DRINK</h3>
+          <dl>
+            <dt>ocha</dt><dd>¥100</dd>
+            <dt>clear-water</dt><dd>¥100</dd>
+            <dt>coffee</dt><dd>¥100</dd>
+            <dt>orange</dt><dd>¥100</dd>
+            <dt>high-ball</dt><dd>¥400</dd>
+         </dl>
+        </div>
+    </div>
+    <div class="about" id="about">
+      <div class="about-line">
+        <h1>ABOUT</h1>
+      </div>
+      <div class="about-contents">
+        <h2>FISH</h2>
+        <p>The taste of Japan is known all over the world. </p>
+        <p>We offer the taste of Japan. The sushi dishes were prepared using freshly caught fish.</p>
+      </div>
+      <div class="contents">
+        <div class="heading">
+           <h2>activity</h2>
+        </div>
+        <div class="activities">
+          <div class="active">
+            <img src="img/4269494_s.jpg">
+            <h4>魚捌き体験</h4>
+            <p>魚を捌くコツが分かれば、釣った魚を刺身にして、おいしく食べる事ができます。</p>
+          </div>
+          <div class="active">
+            <img src="img/4286408_s.jpg">
+            <h4>握り体験</h4>
+            <p>日本の伝統料理の寿司を、実際に作りましょう。</p>
+          </div>
+          <div class="active">
+            <img src="img/24793132_s.jpg">
+            <h4>茶道体験</h4>
+            <p>日本の伝統の茶道を体験し、お茶とともに日本の食文化を楽しみましょう。</p>
+          </div>
+        </div>
+        <div class="btn" id="login-show">
+          <p>さあ、体験申し込み・席予約をしよう</p>
+        </div>
+        <div class="login-modal-wrapper" id="login-modal">
+          <div class="modal">
+            <!-- "close-modal"というclassをつけてください -->
+            <div class="close-modal">
+              <i class="fa fa-2x fa-times"></i>
+            </div>
+            <div id="login-form">
+              <h2>Emailログイン</h2>
+              <form action="#">
+                <input class="form-control" type="text" placeholder="メールアドレス">
+                <input class="form-control" type="password" placeholder="パスワード">
+                <div id="submit-btn">ログイン</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="location">
+      <h2 id="location">LOCATION</h1>
+    </div>  
+    <iframe
+src="https://www.google.com/maps?
+output=embed&z=15&ll=35.6812405,139.7649308&q=東京駅"
+width="960"
+height="450"
+frameborder="0"
+style="border: 0;"
+allowfullscreen=""
+aria-hidden="false"
+tabindex="0"
+></iframe>
+    <div class="footer">
+      <p>日本料理亭</p>
+      <ul>
+        <h4>私たちの信頼実績</h4>
+        <li>トクホ認定2003年</li>
+        <li>日本料理大会:2001年優勝</li>
+        <li>料理提供スピード:注文後3分以内</li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
